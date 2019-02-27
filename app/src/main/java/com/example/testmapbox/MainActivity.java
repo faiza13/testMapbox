@@ -130,6 +130,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
                                 .build(PlaceOptions.MODE_CARDS))
                         .build(MainActivity.this);
+                Log.d(TAG,"test");
                 startActivityForResult(intent, 1);
             }
         });
