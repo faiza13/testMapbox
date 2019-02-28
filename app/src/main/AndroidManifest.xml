@@ -11,6 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".Acceuil">
+
+        </activity>
+        <activity android:name=".NavigationCozii">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
